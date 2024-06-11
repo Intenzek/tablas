@@ -1,0 +1,13 @@
+table th {
+    width: 10em;
+}
+table{
+    border-collapse: collapse;
+}
+tr:nth-of-type(1) > th{
+    background-color: gold;
+}
+td{
+    text-align: center;
+    background-color: beige;
+}
